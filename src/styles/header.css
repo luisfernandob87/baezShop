@@ -1,0 +1,38 @@
+.containerHeader {
+  background-color: var(--colorPrimario);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  align-items: center;
+}
+.containerIconos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: white;
+}
+.containerIconos img {
+  width: 3rem;
+}
+.icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerInput {
+  width: 30rem;
+}
+.containerInput input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+.buscador {
+  background-color: white;
+  display: flex;
+  border-radius: 1.5rem;
+}
+.buscador img {
+  width: 3rem;
+}

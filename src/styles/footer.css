@@ -1,0 +1,34 @@
+.containerFooter {
+  background-color: var(--colorSecundario);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  text-align: start;
+}
+
+.containerIconos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: white;
+}
+.containerIconos img {
+  width: 3rem;
+}
+.containerFooter ul {
+  list-style-type: none;
+  padding: 0;
+}
+.containerFooter li {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  cursor: pointer;
+}
+.containerFooter li:hover {
+  text-decoration: underline;
+}
+footer p {
+  text-align: center;
+  margin: 0;
+}
