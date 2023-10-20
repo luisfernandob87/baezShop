@@ -1,10 +1,20 @@
-.containerFooter {
+footer {
   background-color: var(--colorSecundario);
-  color: white;
+  text-align: center;
   display: flex;
+  justify-content: center;
+}
+footer p {
+  margin: 0;
+  color: white;
+}
+.containerFooter {
+  color: white;
+  display: inherit;
   justify-content: space-between;
   padding: 1.5rem;
   text-align: start;
+  width: 1280px;
 }
 
 .containerIconos {
@@ -27,8 +37,4 @@
 }
 .containerFooter li:hover {
   text-decoration: underline;
-}
-footer p {
-  text-align: center;
-  margin: 0;
 }

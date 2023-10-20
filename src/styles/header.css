@@ -1,9 +1,14 @@
-.containerHeader {
+header {
   background-color: var(--colorPrimario);
   display: flex;
+  justify-content: center;
+}
+.containerHeader {
+  display: inherit;
   justify-content: space-between;
   padding: 1.5rem;
   align-items: center;
+  width: 1280px;
 }
 .containerIconos {
   display: flex;

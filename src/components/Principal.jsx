@@ -1,64 +1,16 @@
 import "../styles/principal.css";
+import productos from "../../products.json";
 function Principal() {
   return (
     <main>
-      <div className="containerProducto">
-        <div className="producto">
-          <img
-            src="https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-            alt="Imagen Producto"
-          />
-          <h4>iPhone 9</h4>
-          <p>$ 549</p>
-        </div>
-        <div className="producto">
-          <img
-            src="https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-            alt="Imagen Producto"
-          />
-          <h4>iPhone 9</h4>
-          <p>$ 549</p>
-        </div>
-        <div className="producto">
-          <img
-            src="https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-            alt="Imagen Producto"
-          />
-          <h4>iPhone 9</h4>
-          <p>$ 549</p>
-        </div>
-        <div className="producto">
-          <img
-            src="https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-            alt="Imagen Producto"
-          />
-          <h4>iPhone 9</h4>
-          <p>$ 549</p>
-        </div>
-        <div className="producto">
-          <img
-            src="https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-            alt="Imagen Producto"
-          />
-          <h4>iPhone 9</h4>
-          <p>$ 549</p>
-        </div>
-        <div className="producto">
-          <img
-            src="https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-            alt="Imagen Producto"
-          />
-          <h4>iPhone 9</h4>
-          <p>$ 549</p>
-        </div>
-        <div className="producto">
-          <img
-            src="https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-            alt="Imagen Producto"
-          />
-          <h4>iPhone 9</h4>
-          <p>$ 549</p>
-        </div>
+      <div className="containerProductos">
+        {productos.map((producto) => (
+          <div key={producto.id} className="producto">
+            <img src={producto.thumbnail} alt="Imagen Producto" />
+            <h4>{producto.title}</h4>
+            <p>$ {producto.price}</p>
+          </div>
+        ))}
       </div>
     </main>
   );

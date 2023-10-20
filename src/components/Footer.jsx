@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p>Copyright © 2023</p>
+      {/* <p>Copyright © 2023</p> */}
     </footer>
   );
 }
