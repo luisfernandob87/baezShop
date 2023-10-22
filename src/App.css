@@ -11,6 +11,7 @@ body {
   margin: 0;
 }
 :root {
-  --colorPrimario: rgb(150, 150, 150);
-  --colorSecundario: rgb(80, 80, 80);
+  --colorPrimario: #000000;
+  --colorSecundario: rgb(255, 255, 255);
+  --colorTerceario: rgb(144, 67, 4);
 }

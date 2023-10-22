@@ -16,13 +16,11 @@ header {
   gap: 1rem;
   color: white;
 }
-.containerIconos img {
-  width: 3rem;
-}
 .icono {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
 .containerInput {
   width: 30rem;
@@ -40,4 +38,10 @@ header {
 }
 .buscador img {
   width: 3rem;
+}
+.icono svg {
+  stroke: white;
+}
+.icono svg:hover {
+  stroke: red;
 }

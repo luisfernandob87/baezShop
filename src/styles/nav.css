@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--colorTerceario);
+}
+.containerNav {
+  display: flex;
+  justify-content: space-around;
+  width: 1280px;
+}
+.containerNav ul {
+  padding: 0;
+}
+.listaCategorias {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: wheat;
+}
+.listaCategorias:hover {
+  text-decoration: underline;
+}
+.iconosCategorias {
+  stroke: wheat;
+}
+.iconosCategorias:hover {
+  stroke: red;
+}
